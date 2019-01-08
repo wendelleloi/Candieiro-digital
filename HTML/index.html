@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
+
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Metronic "Asentus" Frontend Freebie</title>
+        <title>Candieiro Digital</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -30,10 +20,17 @@
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+
+
+        <!-- minhas alterações -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- typewriter-->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="js/t.min.js" type="text/javascript"></script>
     </head>
     <!-- END HEAD -->
 
@@ -82,17 +79,24 @@
         </header>
         <!--========== END HEADER ==========-->
 
+       
+
         <!--========== SLIDER ==========-->
+        <!--
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
+            <div class="container"> 
+            -->
+                <!-- Indicators --> 
+                <!--
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 </ol>
-            </div>
+            </div> 
+            -->
 
             <!-- Wrapper for slides -->
+            <!--
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
@@ -120,6 +124,18 @@
                 </div>
             </div>
         </div>
+        -->
+
+         <section class="introduction">
+            <div class="container">
+
+                    <div id="main" class="pre">
+                        Candieiro digital<ins></ins>
+                    <span id="tagline">Soluçoes web<ins>1.5</ins></span><del></del><del id="pow-trigger"></del> \\
+                    </div>
+
+            </div>
+        </section>
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
@@ -584,6 +600,20 @@
             </div>
             <!-- End Copyright -->
         </footer>
+
+        <!-- typewriter-->
+        <script>    
+                $('#main').t({
+             beep:false,
+             caret:'<span style="color:#fff;">|</span>',
+             typing:function(elm,chr){
+
+               if(chr.match(/\-trigger/))
+                 $('#pow-txt').show().delay(500).fadeOut(0);
+              
+             }
+            });                
+        </script>
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
@@ -610,6 +640,10 @@
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
 
+        
+        
+        
+        
     </body>
     <!-- END BODY -->
 </html>
