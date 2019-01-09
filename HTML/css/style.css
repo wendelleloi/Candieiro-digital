@@ -34,5 +34,87 @@
     color: #e3e3e3 !important;
 }
   
+.paragrafo{
+	color: #000;
+	font-size: 18px;
+	font-family: Hind, sans-serif;
+	line-height: 20px;
+}
+/* conheça nossos preços da pagina inicial*/
+.conheça-preços{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Hind, sans-serif;
+	line-height: 20px;
+	color: #17bed2;
+	font-weight: bold;
+}
 
 
+.conheça-preços:after,
+.conheça-preços:before{
+ 
+padding: 5px;
+ height: 14px;
+ width: 14px;
+ position: absolute;
+ content: '';
+ transition: all 0.35s ease;
+ opacity: 0;
+
+}
+
+.conheça-preços:before{
+  right: 0;
+  top: 0;
+  border-right: 3px solid  #17bed2;
+  border-top: 3px solid  #17bed2;
+  transform: translate(-100%, 50%);
+}
+
+.conheça-preços:after{
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid  #17bed2;
+  border-bottom: 3px solid  #17bed2;
+  transform: translate(100%, -50%);
+}
+
+
+.conheça-preços:hover:after,
+.conheça-preços:hover:before{
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/*type writer CANDIEIRO DIGITAL*/
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+   	color: #515769;
+  	font-family: monospace;     
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 0.5s 2 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color:  #515769;}
+  to{border-right-color: transparent;}
+}
