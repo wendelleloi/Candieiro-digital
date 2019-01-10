@@ -2,12 +2,14 @@
 
 .introduction{
 	width: 100%;
-	background: url("../img/1920x1080/01.jpg") no-repeat center;
+	background: url("../back1.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
-	height: 800px;
+	height: 700px;
 	text-align: center;
 	padding-top: 300px;
+
+
 }
 
 /*Type Writer*/
@@ -22,6 +24,9 @@
 	color: #fff;
 	text-transform: uppercase;
 }
+
+
+
 
 #tagline {
     color: grey;
@@ -38,8 +43,17 @@
 	color: #000;
 	font-size: 18px;
 	font-family: Hind, sans-serif;
-	line-height: 20px;
+	line-height: 20px;  
 }
+
+.back-QuemSomos{
+	background: url("../back1.jpg");
+	background-size: cover;
+	height: 300px;
+	opacity: 0.8;
+	
+}
+
 /* conheça nossos preços da pagina inicial*/
 .conheça-preços{
 	text-transform: uppercase;
@@ -48,6 +62,7 @@
 	line-height: 20px;
 	color: #17bed2;
 	font-weight: bold;
+	padding: 15px 0;
 }
 
 
@@ -86,16 +101,17 @@ padding: 5px;
   transform: translate(0%, 0%);
   opacity: 1;
 }
-
+.block{
+	display: block;
+}
 /*type writer CANDIEIRO DIGITAL*/
 
 .line-1{
     position: relative;
     top: 50%;  
-    width: 24em;
-    
+    padding-bottom: 5px;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     text-align: left;
     white-space: nowrap;
@@ -107,12 +123,120 @@ padding: 5px;
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 0.5s 2 normal both,
+  animation: typewriter 4s steps(44) 0.5s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
   to{width: 9.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color:  #515769;}
+  to{border-right-color: transparent;}
+}
+
+/*serviços*/
+.back-serviços{
+	background: url("../back-serviços1.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	height: 240px;
+}
+.back-serviços h3, p{
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-top: 15px;
+}
+.back-serviços p{
+	padding:  10px 50px;
+}
+
+.icon{
+	border: 2px solid #ddd;
+    border-radius: 50%;
+    color: #26485c;
+    background-color: #fff;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 86px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.icon:hover{
+	transform: rotate(360deg);
+	transition: 1s;
+	color: #fff;
+	background-color:  #26485c;
+
+}
+
+.pricing:after,
+.pricing:before{
+ 
+padding: 5px;
+height: 14px;
+width: 14px;
+position: absolute;
+content: '';
+transition: all 0.35s ease;
+opacity: 0;
+
+}
+
+.pricing:before{
+  right: 0;
+  top: 0;
+  border-right: 3px solid  #17bed2;
+  border-top: 3px solid  #17bed2;
+  transform: translate(-100%, 50%);
+}
+
+.pricing:after{
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid  #17bed2;
+  border-bottom: 3px solid  #17bed2;
+  transform: translate(100%, -50%);
+}
+
+
+.pricing:hover:after,
+.pricing:hover:before{
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/*type writer SERVIÇOS*/
+
+.line-2{
+    position: relative;
+    padding-bottom: 5px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+   	color: #515769;
+  	font-family: monospace;
+  	margin-top: 50px;
+  	margin-left: 10px;
+}
+
+/* Animation */
+.anim-typewriter2{
+  animation: typewriter2 4s steps(44) 0.5s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 4.5em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}

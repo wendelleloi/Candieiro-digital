@@ -209,6 +209,11 @@ h4 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+    margin: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .btn-theme:focus, .btn-theme:active:focus, .btn-theme.active:focus, .btn-theme.focus, .btn-theme:active.focus, .btn-theme.active.focus {
@@ -281,13 +286,14 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   padding: 15px 30px;
+  width: 180px;
 }
 
 /*------------------------------------------------------------------
   	[Pricing]
 ------------------------------------------------------------------*/
 .pricing {
-  padding: 70px 45px;
+  
   background: #fff;
   margin-top: 50px;
 }
@@ -319,13 +325,15 @@ fieldset[disabled] .btn-theme {
 
 .pricing .pricing-list-item {
   position: relative;
-  font-size: 13px;
+  font-size: 18px;
   color: #81848f;
   padding-left: 20px;
   margin-bottom: 10px;
+  text-align: center;
+
 }
 
-.pricing .pricing-list-item:before {
+/*.pricing .pricing-list-item:before {
   position: absolute;
   top: 7px;
   left: 0;
@@ -334,7 +342,7 @@ fieldset[disabled] .btn-theme {
   background: #17bed2;
   content: " ";
   margin-right: 10px;
-}
+}*/
 
 /*------------------------------------------------------------------
   	[Promo Section]
@@ -1446,6 +1454,9 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 100px !important;
 }
 
+.margin-b-120 {
+  margin-bottom: 120px !important;
+}
 /*------------------------------------------------------------------
     [Top margin below 992px]
 ------------------------------------------------------------------*/
