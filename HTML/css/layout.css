@@ -295,7 +295,7 @@ fieldset[disabled] .btn-theme {
 .pricing {
   
   background: #fff;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {

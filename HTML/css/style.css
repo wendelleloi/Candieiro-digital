@@ -128,7 +128,7 @@ padding: 5px;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 9.5em;}
+  to{width: 9.9em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
@@ -140,7 +140,7 @@ padding: 5px;
 	background: url("../back-serviços1.jpg") no-repeat center;
 	background-size: cover;
 	text-align: center;
-	height: 240px;
+	min-height: 240px;
 }
 .back-serviços h3, p{
 	color: #fff;
@@ -167,6 +167,7 @@ padding: 5px;
     text-align: center;
     padding: 20px;
 }
+
 .icon:hover{
 	transform: rotate(360deg);
 	transition: 1s;
@@ -233,12 +234,59 @@ opacity: 0;
 .anim-typewriter2{
   animation: typewriter2 4s steps(44) 0.5s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
+  margin: 0  auto;
+  margin-top: 50px;
 }
 @keyframes typewriter2{
   from{width: 0;}
-  to{width: 4.5em;}
+  to{width: 9em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
+  to{border-right-color: transparent;}
+}
+
+/*diferenciais*/
+.diferenciais{
+	width: 100%;
+	background: url("../back-diferenciais1.jpg") no-repeat fixed;
+	background-size: cover; 
+	margin-top: 0px;
+	height: 500px;
+	text-align: center;
+	
+
+}
+/*type writer DIFERENCIAIS*/
+.line-3{
+    position: relative;
+    padding-bottom: 5px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+   	color: #fff;
+  	font-family: monospace;
+  	margin-top: 50px;
+  	margin-left: 10px;
+  	text-transform: uppercase;
+}
+
+/* Animation */
+.anim-typewriter3{
+  animation: typewriter3 4s steps(44) 0.5s 1 normal both,
+             blinkTextCursor1 500ms steps(44) infinite normal;
+  margin: 0  auto;
+  margin-top: 50px;
+}
+@keyframes typewriter3{
+  from{width: 0em;}
+  to{width: 11em;}
+}
+@keyframes blinkTextCursor1{
+  from{border-right-color:  #fff;}
   to{border-right-color: transparent;}
 }
