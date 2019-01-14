@@ -1,3 +1,23 @@
+
+
+/* divisor da seção NOSSOS SERVIÇOS */
+.section-title-divider-con-serviços {
+    width: 130px;
+    height: 3px;
+    background: #515769;
+    margin: 0 auto 20px;
+}
+
+
+/* divisor da seção NOSSOS DIFERENCIAIS */
+.section-title-divider-con-diferenciais {
+    width: 130px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto 20px;
+}
+
+
 /*introdução*/
 
 .introduction{
@@ -17,7 +37,6 @@
 .pre {
     font-family: monospace;
     font-weight: bolder;
-
     font-size: 48px;
 	line-height: 60px;
 	font-weight: bold;
@@ -252,7 +271,7 @@ opacity: 0;
 	background: url("../back-diferenciais1.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
-	height: 500px;
+	min-height: 500px;
 	text-align: center;
 	
 
@@ -285,6 +304,60 @@ opacity: 0;
 @keyframes typewriter3{
   from{width: 0em;}
   to{width: 11em;}
+}
+@keyframes blinkTextCursor1{
+  from{border-right-color:  #fff;}
+  to{border-right-color: transparent;}
+}
+
+/* icone */
+.icon-diferencial{
+
+    color: #fff;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 86px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-info h3{
+	text-transform: uppercase;
+}
+.border-right{
+	border-right: 3px solid  #fff;
+}
+/* footer */
+
+/*type writer CONTATO*/
+.line-4{
+    position: relative;
+    padding-bottom: 5px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+   	color: #fff;
+  	font-family: monospace;
+  
+  	text-transform: uppercase;
+}
+
+/* Animation */
+.anim-typewriter4{
+  animation: typewriter4 2s steps(22) 0.5s 1 normal both,
+             blinkTextCursor1 500ms steps(44) infinite normal;
+  margin: 0  auto;
+
+}
+@keyframes typewriter4{
+  from{width: 0em;}
+  to{width: 05em;}
 }
 @keyframes blinkTextCursor1{
   from{border-right-color:  #fff;}
