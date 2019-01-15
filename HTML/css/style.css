@@ -147,7 +147,7 @@ padding: 5px;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 9.6em;}
+  to{width: 10em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
@@ -258,7 +258,7 @@ opacity: 0;
 }
 @keyframes typewriter2{
   from{width: 0;}
-  to{width: 8.6em;}
+  to{width: 9em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
@@ -308,7 +308,7 @@ opacity: 0;
 }
 @keyframes typewriter3{
   from{width: 0em;}
-  to{width: 11em;}
+  to{width: 12em;}
 }
 @keyframes blinkTextCursor1{
   from{border-right-color:  #fff;}
