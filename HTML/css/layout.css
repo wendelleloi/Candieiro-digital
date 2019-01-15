@@ -485,13 +485,13 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: #000;
 }
 
 .footer .footer-seperator {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #262626;
+  background-image: linear-gradient(to bottom #262626,  #1a1a1a, #0d0d0d);
 }
 
 .footer .footer-list {

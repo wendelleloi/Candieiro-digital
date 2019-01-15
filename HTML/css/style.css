@@ -22,7 +22,7 @@
 
 .introduction{
 	width: 100%;
-	background: url("../back1.jpg") no-repeat fixed;
+	background: url("../img/back1.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
 	height: 700px;
@@ -66,7 +66,7 @@
 }
 
 .back-QuemSomos{
-	background: url("../back1.jpg");
+	background: url("../img/back1.jpg");
 	background-size: cover;
 	height: 300px;
 	opacity: 0.8;
@@ -130,7 +130,7 @@ padding: 5px;
     top: 50%;  
     padding-bottom: 5px;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     text-align: left;
     white-space: nowrap;
@@ -147,7 +147,7 @@ padding: 5px;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 9.9em;}
+  to{width: 9.6em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
@@ -156,7 +156,7 @@ padding: 5px;
 
 /*serviços*/
 .back-serviços{
-	background: url("../back-serviços1.jpg") no-repeat center;
+	background: url("../img/back-serviços1.jpg") no-repeat center;
 	background-size: cover;
 	text-align: center;
 	min-height: 240px;
@@ -237,7 +237,7 @@ opacity: 0;
     position: relative;
     padding-bottom: 5px;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
@@ -258,30 +258,35 @@ opacity: 0;
 }
 @keyframes typewriter2{
   from{width: 0;}
-  to{width: 9em;}
+  to{width: 8.6em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
   to{border-right-color: transparent;}
 }
 
+
 /*diferenciais*/
 .diferenciais{
 	width: 100%;
-	background: url("../back-diferenciais1.jpg") no-repeat fixed;
+	background: url("../img/back-diferenciais2.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
 	min-height: 500px;
 	text-align: center;
-	
 
 }
+
+.diferenciais h3 {
+	color: #fff;
+}
+
 /*type writer DIFERENCIAIS*/
 .line-3{
     position: relative;
     padding-bottom: 5px;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
@@ -310,6 +315,12 @@ opacity: 0;
   to{border-right-color: transparent;}
 }
 
+@media screen and (max-width: 600px) {
+  .line3 p{
+    font-size: 20px;
+  }
+}
+
 /* icone */
 .icon-diferencial{
 
@@ -320,7 +331,11 @@ opacity: 0;
     line-height: 86px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding-top: 15px;
+
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    
 }
 
 .service-info h3{
@@ -362,4 +377,186 @@ opacity: 0;
 @keyframes blinkTextCursor1{
   from{border-right-color:  #fff;}
   to{border-right-color: transparent;}
+}
+/*lista*/
+
+.address{
+	list-style: none;
+	
+}
+
+.address li{
+	padding: 05px 0;
+}
+
+.address span:hover{
+	font-weight: bold;
+}
+
+.address span{
+	font-size: 15px;
+	color: #fff;
+	padding:0 5px;
+}
+
+.address i{
+	color: #fff;
+
+}
+
+.inline{
+	display: inline-block;
+}
+
+.address p{
+	text-transform: none;
+}
+
+.address a{
+	color: #17bed2;
+}
+.address a:hover{
+	color: #515769;
+}
+
+/*social contact*/
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+   
+    color: #fff;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin-top: 50px; 
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook-f {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook-f:hover {
+    background-color: #3d5b99;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #527fa6;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #4284c0;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin-in {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin-in:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus-g {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus-g:hover {
+    background-color: #e25714;
+}
+
+/*copyright*/
+
+.text-center{
+	text-align: center;
+}
+
+.copyright p{
+	text-transform: none;
+}
+
+.copyright span{
+	text-transform: uppercase;
+}
+
+.copyright a{
+	color: #17bed2
 }
