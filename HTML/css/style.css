@@ -8,6 +8,13 @@
     margin: 0 auto 20px;
 }
 
+.section-title-divider-con-serviços:hover {
+    width: 150px;
+    height: 4px;
+    transition: 1s;
+
+}
+
 
 /* divisor da seção NOSSOS DIFERENCIAIS */
 .section-title-divider-con-diferenciais {
@@ -15,6 +22,13 @@
     height: 3px;
     background: #fff;
     margin: 0 auto 20px;
+}
+
+.section-title-divider-con-diferenciais:hover {
+    width: 150px;
+    height: 4px;
+    transition: 1s;
+
 }
 
 
@@ -42,9 +56,9 @@
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
+	top: 50%;
+	
 }
-
-
 
 
 #tagline {
@@ -62,7 +76,10 @@
 	color: #000;
 	font-size: 18px;
 	font-family: Hind, sans-serif;
-	line-height: 20px;  
+	line-height: 20px;
+	text-align: justify;
+	text-transform: none;
+	font-weight: normal; 
 }
 
 .back-QuemSomos{
@@ -70,7 +87,7 @@
 	background-size: cover;
 	height: 300px;
 	opacity: 0.8;
-	
+	width: 100%;
 }
 
 /* conheça nossos preços da pagina inicial*/
@@ -136,8 +153,11 @@ padding: 5px;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-   	color: #515769;
+   	color:#17bed2;
   	font-family: monospace;     
+}
+.justify{
+	text-align: justify;
 }
 
 /* Animation */
@@ -147,7 +167,7 @@ padding: 5px;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 10em;}
+  to{width: 11em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color:  #515769;}
@@ -160,6 +180,8 @@ padding: 5px;
 	background-size: cover;
 	text-align: center;
 	min-height: 240px;
+	width: 100%;
+  	height: auto;
 }
 .back-serviços h3, p{
 	color: #fff;
@@ -191,7 +213,7 @@ padding: 5px;
 	transform: rotate(360deg);
 	transition: 1s;
 	color: #fff;
-	background-color:  #26485c;
+	background-color: #262626;
 
 }
 
