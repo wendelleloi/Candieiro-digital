@@ -676,6 +676,7 @@ fieldset[disabled] .btn-theme {
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  padding: 10px 0;
  
 }
 .header .nav-item .nav-item-hover.active:before {
@@ -683,7 +684,7 @@ fieldset[disabled] .btn-theme {
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
- 
+  padding: 10px 0;
 }
 
 .header .nav-item:hover .nav-item-hover:after {

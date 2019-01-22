@@ -4,7 +4,7 @@ $(document).ready(function($){
         //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
         offset_opacity = 1200,
         //duration of the top scrolling animation (in ms)
-        scroll_top_duration = 700,
+        scroll_top_duration = 1000,
         //grab the "back to top" link
         $back_to_top = $('.js-back-to-top');
 

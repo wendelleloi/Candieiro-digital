@@ -15,4 +15,17 @@ $(document).ready(function(){
 		
 		e.preventDefault();
 		});
+
+
+	$('.btn-intro').click(function(e){
+		
+		var linkHef =$(this).attr('href');
+
+
+		$('html, body').animate({
+			scrollTop: $(linkHef).offset().top - headerHeight
+		},1000);
+		
+		e.preventDefault();
+		});
 });
