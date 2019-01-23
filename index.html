@@ -7,8 +7,8 @@
         <title>Candieiro Digital - Soluções Web</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+        <meta content="Empresa especializada em soluções web." name="description"/>
+        <meta content="Candieiro Digital" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -131,7 +131,7 @@
                             <p class="paragrafo">Nós, do Candieiro Digital, temos o principal interesse em gerar soluções Web para alavancar seu negócio. Desenvolvemos sites responsivos, adaptáveis ao tamanho da tela do seu dispositivo, e sistemas Web, feitos sob medida para os mais diferentes público alvo; com layouts sérios ou divertidos, adaptando-se a sua demanda.</p>
 
                             <a href="about.html" class="conheça-preços block">Descubra mais um pouco sobre nós</a>
-                            <a href="pricing.html" class="conheça-preços">Conheça nossos preços</a>
+                            <a href="#contato-nav" class="conheça-preços">Nosso contato</a>
 
                         </div>
                     </div>
@@ -268,12 +268,20 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-margin-b-30">
                                 <div class="contact-info wow fadeInUp"data-wow-duration="1000ms" data-wow-delay="300ms">
-                                    <p>mande um e-mail</p>
-                                    <input type="text" class="form-control footer-input margin-b-20" placeholder="Seu nome" required>
-                                    <input type="email" class="form-control footer-input margin-b-20" placeholder="Seu E-mail" required>
-                                    <input type="text" class="form-control footer-input margin-b-20" placeholder="Celular" required>
-                                    <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Mensagem" required></textarea>
-                                    <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
+                                    <form action="enviar.php" method="post" name="form" class="formphp">
+                                        <p>mande um e-mail</p>
+                                        <input type="text" name="nome" class="form-control footer-input margin-b-20" placeholder="Seu nome" required>
+                                        <input type="email" name="email"class="form-control footer-input margin-b-20" placeholder="Seu E-mail" required>
+                                        <input type="text" name="Celular"class="form-control footer-input margin-b-20" placeholder="Celular" required>
+
+                                        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                                        <input type="text" class="nao-aparece" name="leaveblank">
+                                        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                                        <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+                                        <textarea name="Mensagem"class="form-control footer-input margin-b-30" rows="6" placeholder="Mensagem" required></textarea>
+                                        <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
+                                    </form>
                                 </div>
                             </div>
 
@@ -289,11 +297,11 @@
                                     <div class="footer-social-icons">
                                         <h4 class="_14">Confira nossas redes sociais</h4>
                                         <ul class="social-icons">
-                                            <li><a href="" class="social-icon"> <i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="" class="social-icon"> <i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="" class="social-icon"> <i class="fab fa-github"></i></a></li>
-                                            <li><a href="" class="social-icon"> <i class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="" class="social-icon"> <i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="" class="social-icon" title="Facebook"> <i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="" class="social-icon" title="Instagram"> <i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="" class="social-icon" title="Github"> <i class="fab fa-github"></i></a></li>
+                                            <li><a href="" class="social-icon" title="Linkedin"> <i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="" class="social-icon" title="Gmail"> <i class="fab fa-google-plus-g"></i></a></li>
                                         </ul>
                                     </div>
 

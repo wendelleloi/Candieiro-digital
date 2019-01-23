@@ -17,15 +17,15 @@ $(document).ready(function(){
 		});
 
 
-	$('.btn-intro').click(function(e){
-		
-		var linkHef =$(this).attr('href');
+		$('.btn-intro, .conheça-preços').click(function(e){
+			
+			var linkHef =$(this).attr('href');
 
 
-		$('html, body').animate({
-			scrollTop: $(linkHef).offset().top - headerHeight
-		},1000);
-		
-		e.preventDefault();
-		});
+			$('html, body').animate({
+				scrollTop: $(linkHef).offset().top - headerHeight
+			},1000);
+			
+			e.preventDefault();
+			});
 });
