@@ -36,7 +36,7 @@
 
 .introduction{
 	width: 100%;
-	background: url("../img/back1.jpg") no-repeat fixed;
+	background: url("../img/back.jpg") no-repeat fixed;
 	background-size: cover; 
 	height: 700px;
 	text-align: center;
@@ -85,7 +85,7 @@
 }
 
 .back-QuemSomos{
-	background: url("../img/back1.jpg");
+	background: url("../img/back.jpg");
 	background-size: cover;
 	height: 300px;
 	opacity: 0.8;
@@ -207,7 +207,7 @@ padding: 5px;
 
 /*serviços*/
 .back-serviços{
-	background: url("../img/back-serviços1.jpg") no-repeat fixed;
+	background: url("../img/back-serviços.jpg") no-repeat fixed;
 	background-size: cover;
 	text-align: center;
 	min-height: 240px;
@@ -322,7 +322,7 @@ opacity: 0;
 /*diferenciais*/
 .diferenciais{
 	width: 100%;
-	background: url("../img/back-diferenciais2.jpg") no-repeat fixed;
+	background: url("../img/back-diferenciais.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
 	min-height: 500px;
@@ -333,7 +333,7 @@ opacity: 0;
 @media (max-width: 720px) {
   .diferenciais{
    	width: 100%;
-	background: url("../img/back-diferenciais2.jpg") no-repeat fixed;
+	background: url("../img/back-diferenciais.jpg") no-repeat fixed;
 	background-size: cover; 
 	margin-top: 0px;
   }
