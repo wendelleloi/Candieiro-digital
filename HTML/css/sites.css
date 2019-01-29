@@ -1,0 +1,97 @@
+/*corpo*/
+
+body{
+	width: 100%;
+    background: url("../img/back-site.jpg") no-repeat fixed;
+    background-size: cover; 
+    height: 100%;
+    text-align: center;
+    
+}
+
+/*typewhiter*/
+.corpo-site{
+	margin-top: 5%;
+}
+
+
+.pre-site {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 48px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #fff;
+	
+	
+}
+
+
+.pow-txt-site {
+     font-family: monospace;
+    font-weight: bolder;
+    font-size: 48px;
+	line-height: 60px;
+	font-weight: bold;
+	
+	text-transform: uppercase;
+  
+    color: #e3e3e3 !important;
+}
+
+/*formulario*/
+.back-color{
+	background-color: #333;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+	display: block;
+    min-height: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 0;
+
+}
+
+.link-site{
+	color: #17bed2;
+
+}
+
+.inLine{
+	display: inline-block;
+}
+
+.icone{
+	color: #fff;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 86px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.section-list{
+	margin-top: 100px;
+
+}
+
+
+.span-title{
+	color: #fff;
+	font-size:22px;
+	font-weight: bold;
+	
+}
+
+.span-text{
+	color: #fff;
+	font-size: 20px;
+	
+}
